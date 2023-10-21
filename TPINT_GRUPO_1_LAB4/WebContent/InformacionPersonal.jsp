@@ -26,60 +26,57 @@
         </div>
     </nav>
     
-	<h1 style="margin-top:150px;">Esta es toda tu información personal</h1>
-	<table class="table table-hover table-dark""> 
-	  <thead>
-	    <tr>
-	      <th scope="col">Cuit</th>
-	      <th scope="col">Nombre</th>
-	      <th scope="col">Apellido</th>
-	      <th scope="col">Sexo</th>
-	      <th scope="col">Nacionalidad</th>
-	      <th scope="col">Fecha de nacimiento</th>
-	      <th scope="col">Direccion</th>
-	      <th scope="col">Localidad</th>
-	      <th scope="col">Provincia</th>
-	      <th scope="col">Correo electronico</th>
-	      <th scope="col">Telefono</th>
-	      <th scope="col">Usuario</th>
-	    </tr>
-	  </thead>
-	  <tbody>
-	  
-	    <tr>
-
-	    </tr>
-	    
-	  </tbody>
-	</table>
-	
-<button type="button" class="btn btn-primary text-center" data-toggle="modal" data-target="#myModal"> Arrepentimiento / Darse de baja </button>
-  
-  
-  <div class="modal fade" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-      
-        
-        <div class="modal-header">
-          <h4 class="modal-title">¡Borrarás tu cuenta!</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	<div class="container mt-5" style="padding-top: 56px;">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title" style="text-align: center; margin-bottom: 20px;">Esta es toda tu información personal</h1>
+            <table class="table table-hover table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Cuit</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Sexo</th>
+                        <th scope="col">Nacionalidad</th>
+                        <th scope="col">Fecha de nacimiento</th>
+                        <th scope="col">Dirección</th>
+                        <th scope="col">Localidad</th>
+                        <th scope="col">Provincia</th>
+                        <th scope="col">Correo electrónico</th>
+                        <th scope="col">Teléfono</th>
+                        <th scope="col">Usuario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Agrega tus datos de información personal aquí -->
+                </tbody>
+            </table>
+            <div class="text-center" style="margin-top: 20px;">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Arrepentimiento / Darse de baja</button>
+            </div>
         </div>
-        
-        
-        <div class="modal-body">
-          ¡Tenlo claro, no hay vuelta atrás para esta opción!
-        </div>
-        
-        
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Borrar definitivamente</button>
-          <button type="button" class="btn btn-warning" data-dismiss="modal">Cancelar</button>
-        </div>
-        
-      </div>
     </div>
-  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">¡Borrarás tu cuenta!</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                ¡Tenlo claro, no hay vuelta atrás para esta opción!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Borrar definitivamente</button>
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </body>
 </html>

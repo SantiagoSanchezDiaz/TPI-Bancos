@@ -10,11 +10,73 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  
   <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
+        body {
+            background-color: #763626;
+            color: #2A3132;
+        }
+
+        .fakeimg {
+            height: 200px;
+            background: #aaa;
+        }
+
+        .jumbotron {
+            background-color: #2A3132;
+            color: #90AFC5;
+            margin-bottom: 0;
+        }
+
+        .card {
+            background-color: #90AFC5;
+            color: #2A3132;
+            margin-bottom: 30px;
+        }
+
+        .card-title {
+            color: #763626;
+        }
+
+        .navbar {
+            background-color: #2A3132;
+        }
+
+        .nav-link {
+            color: #90AFC5 !important;
+        }
+
+        .navbar-dark .navbar-toggler {
+            border-color: #90AFC5;
+        }
+
+        .navbar-dark .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(144, 175, 197, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+        .dropdown-menu {
+            background-color: #2A3132;
+        }
+
+        .dropdown-item {
+            color: #90AFC5;
+        }
+
+        .dropdown-item:hover {
+            background-color: #90AFC5;
+            color: #2A3132;
+        }
+
+        .dropdown-item:focus {
+            background-color: #90AFC5;
+            color: #2A3132;
+        }
+
+        .dropdown-toggle::after {
+            color: #90AFC5;
+        }
+    </style>
+
   </style>
 </head>
 <body>
@@ -58,33 +120,54 @@
     </div>
 </nav>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <h1>-Nombre del banco-</h1>
+	
+
+<div class="jumbotron jumbotron-fluid text-center" style="background-color: #2A3132;">
+  <div class="container">
+    <h1 class="display-4" style="color: #90AFC5; font-weight: bold;">¡Bienvenido a -Nombre del Banco-!</h1>
+    <p class="lead" style="color: #336B87">Ofreciendo soluciones financieras confiables y de calidad desde 1990.</p>
+  </div>
 </div>
 
-
-
-<div class="container" style="margin-top:30px">
+<div class="container mt-4">
   <div class="row">
-    <div class="col-sm-4">
-      <h2>Agregar weasss</h2>
-      <h5>wea</h5>
-      <div class="fakeimg">wea imagen</div>
-      <p>Lorem ipsum nashe</p>
-      
-      <hr class="d-sm-none">
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h2 class="card-title">Agregar Weas</h2>
+          <p class="card-text">Lorem ipsum nashe</p>
+        </div>
+        <img class="card-img-top" src="https://via.placeholder.com/250" alt="Wea">
+      </div>
     </div>
-    <div class="col-sm-8">
-      <h2>Pense esta seccion tipo: agregar fotos de como se ve la app del banco adentro, algunas secciones tipo el inicio, las transacciones, el historial, cosas asi en fotos debajo</h2>
-      <h5>Historial de transacciones:</h5>
-      <div class="fakeimg">Historial truchardo</div>
-      <br>
-      <h5>Nuestra app</h5>
-      <div class="fakeimg">muestra de la seleccion de las difs cuentas</div>
-      <p>Puedes seleccionar con que cuenta ingresar para realizar tus transacciones o pagar tus prestamos</p>
+    <div class="col-lg-8 col-md-6">
+      <div class="card h-100">
+        <div class="card-body">
+          <h2 class="card-title">Pense esta seccion tipo:</h2>
+          <p class="card-text">Agregar fotos de cómo se ve la app del banco adentro, algunas secciones como el inicio, las transacciones, el historial, etc.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Historial de Transacciones</h5>
+              <img class="card-img-top" src="https://via.placeholder.com/300" alt="Historial falso">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Nuestra App</h5>
+              <img class="card-img-top" src="https://via.placeholder.com/300" alt="Muestra de la selección de las diferentes cuentas">
+              <p class="card-text">Puedes seleccionar con qué cuenta ingresar para realizar tus transacciones o pagar tus préstamos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+
+
 
 </body>
 </html>
