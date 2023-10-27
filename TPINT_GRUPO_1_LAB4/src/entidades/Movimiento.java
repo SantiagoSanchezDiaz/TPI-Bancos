@@ -77,7 +77,7 @@ public class Movimiento {
 	public void setTipoMovimiento(String tipoMovimiento) {
 		TipoMovimiento = tipoMovimiento;
 	}
-	public boolean isEstado() {
+	public boolean getEstado() {
 		return Estado;
 	}
 	public void setEstado(boolean estado) {

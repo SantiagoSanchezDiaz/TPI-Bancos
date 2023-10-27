@@ -3,15 +3,15 @@ package entidades;
 public class Administrador {
 	private String Codigo;
 	private String Usuario;
-	private String Contraseña;
+	private String Contrasenia;
 	private boolean Estado;
 	
 	/// CONSTRUCTOR
 	
-	public Administrador(String codigo, String usuario, String contraseña, boolean estado) {
+	public Administrador(String codigo, String usuario, String contrasenia, boolean estado) {
 		Codigo = codigo;
 		Usuario = usuario;
-		Contraseña = contraseña;
+		Contrasenia = contrasenia;
 		Estado = estado;
 	}
 	
@@ -32,12 +32,12 @@ public class Administrador {
 		Usuario = usuario;
 	}
 	
-	public String getContraseña() {
-		return Contraseña;
+	public String getContrasenia() {
+		return Contrasenia;
 	}
 	
-	public void setContraseña(String contraseña) {
-		Contraseña = contraseña;
+	public void setcontrasenia(String contrasenia) {
+		Contrasenia = contrasenia;
 	}
 	
 	public boolean getEstado() {

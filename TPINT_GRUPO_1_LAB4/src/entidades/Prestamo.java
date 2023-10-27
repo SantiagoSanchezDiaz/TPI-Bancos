@@ -115,7 +115,7 @@ public class Prestamo {
 		CantidadCuotasPagadas = cantidadCuotasPagadas;
 	}
 
-	public boolean isEstado() {
+	public boolean getEstado() {
 		return Estado;
 	}
 
