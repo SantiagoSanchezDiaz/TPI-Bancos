@@ -16,13 +16,13 @@ public class Cliente{
 	private String Correo;
 	private String Telefono;
 	private String Usuario;
-	private String Contraseña;
+	private String Contrasenia;
 	private boolean Estado;
 	
 	/// CONSTRUCTOR
 	public Cliente(String dNI, String cuit, String nombre, String apellido, String sexo, String nacionalidad,
 			Date fechaNacimiento, String direccion, String localidad, String provincia, String correo, String telefono,
-			String usuario, String contraseña, boolean estado) {
+			String usuario, String contrasenia, boolean estado) {
 		DNI = dNI;
 		Cuit = cuit;
 		Nombre = nombre;
@@ -36,7 +36,7 @@ public class Cliente{
 		Correo = correo;
 		Telefono = telefono;
 		Usuario = usuario;
-		Contraseña = contraseña;
+		Contrasenia = contrasenia;
 		Estado = estado;
 	}
 
@@ -145,12 +145,12 @@ public class Cliente{
 		Usuario = usuario;
 	}
 
-	public String getContraseña() {
-		return Contraseña;
+	public String getContrasenia() {
+		return Contrasenia;
 	}
 
-	public void setContraseña(String contraseña) {
-		Contraseña = contraseña;
+	public void setContrasenia(String contrasenia) {
+		Contrasenia = contrasenia;
 	}
 
 	public boolean isEstado() {

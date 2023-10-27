@@ -9,16 +9,18 @@ public class Cuenta {
 	private String CVU;
 	private String Alias;
 	private Float Saldo;
+	private String TipoCuenta;
 	private boolean Estado;
 	
 	///CONSTRUCTOR
 	
-	public Cuenta(String numeroCuenta, String dNI, Date fecha, String cVU, String alias, Float saldo, boolean estado) {
+	public Cuenta(String numeroCuenta, String dNI, Date fecha, String cVU, String alias, String tipoCuenta, Float saldo, boolean estado) {
 		NumeroCuenta = numeroCuenta;
 		DNI = dNI;
 		Fecha = fecha;
 		CVU = cVU;
 		Alias = alias;
+		TipoCuenta = tipoCuenta;
 		Saldo = saldo;
 		Estado = estado;
 	}
@@ -64,7 +66,15 @@ public class Cuenta {
 	public void setAlias(String alias) {
 		Alias = alias;
 	}
-
+	
+	public void setTipoCuenta(String tipoCuenta) {
+		TipoCuenta = tipoCuenta;
+	}
+	
+	public String getTipoCuenta() {
+		return TipoCuenta;
+	}
+	
 	public Float getSaldo() {
 		return Saldo;
 	}

@@ -5,9 +5,10 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
+	
 	public static Conexion instancia;
 	private Connection connection;
-	// Hola, no lo pidan
+
 	private Conexion()
 	{
 		try
