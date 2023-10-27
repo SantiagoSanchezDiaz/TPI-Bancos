@@ -13,7 +13,7 @@
   
   <style>
         body {
-            background-color: #763626;
+            background-color: #D0D0D0;
             color: #2A3132;
         }
 
@@ -90,7 +90,7 @@
         <div class="collapse navbar-collapse" id="exCollapsingNavbar">
             <ul class="nav navbar-nav">
                 <li class="nav-item"><a href="#" class="nav-link">Sobre nosotros</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Agregar mas weas aca?</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Información de la página</a></li>
             </ul>
             <ul class="nav navbar-nav flex-row justify-content-between ml-auto">
                 <li class="nav-item order-2 order-md-1"><a href="#" class="nav-link" title="settings"><i class="fa fa-cog fa-fw fa-lg"></i></a></li>
@@ -134,8 +134,8 @@
     <div class="col-lg-4 col-md-6 mb-4">
       <div class="card h-100">
         <div class="card-body">
-          <h2 class="card-title">Agregar Weas</h2>
-          <p class="card-text">Lorem ipsum nashe</p>
+          <h2 class="card-title">Información adicional</h2>
+          <p class="card-text"></p>
         </div>
         <img class="card-img-top" src="https://via.placeholder.com/250" alt="Wea">
       </div>
@@ -143,7 +143,7 @@
     <div class="col-lg-8 col-md-6">
       <div class="card h-100">
         <div class="card-body">
-          <h2 class="card-title">Pense esta seccion tipo:</h2>
+          <h2 class="card-title">Agregar informacion adicional de los funcionamientos</h2>
           <p class="card-text">Agregar fotos de cómo se ve la app del banco adentro, algunas secciones como el inicio, las transacciones, el historial, etc.</p>
         </div>
         <div class="row">
@@ -165,8 +165,6 @@
     </div>
   </div>
 </div>
-
-
 
 
 </body>

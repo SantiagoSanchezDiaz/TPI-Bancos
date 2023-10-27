@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <span class="navbar-text mr-3">¡Buenas *Variable del nombre*!</span>
+                    <span class="navbar-text mr-3">¡Buenas!</span>
                 </li>
             </ul>
         </div>
@@ -48,15 +48,16 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Agrega tus datos de información personal aquí -->
+                    
                 </tbody>
-            </table>
-            <div class="text-center" style="margin-top: 20px;">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Arrepentimiento / Darse de baja</button>
-            </div>
+            </table>            
         </div>
     </div>
 </div>
+
+		<div class="text-center" style="margin-top: 20px;">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Arrepentimiento / Darse de baja</button>
+            </div>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal">

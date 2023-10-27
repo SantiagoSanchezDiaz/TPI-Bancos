@@ -50,7 +50,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <span class="navbar-text mr-3">Tu cuenta actual es *variable de la cuenta*</span>
+                    <span class="navbar-text mr-3">Tu cuenta actual es </span>
                 </li>
                 <li class="nav-item">
                     <a class="btn btn-primary" href="InformacionPersonal.jsp">Información Personal</a>

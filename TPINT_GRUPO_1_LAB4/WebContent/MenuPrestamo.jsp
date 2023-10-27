@@ -72,7 +72,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <span class="navbar-text mr-3">¡Bienvenido *Variable del nombre*!</span>
+                    <span class="navbar-text mr-3">¡Bienvenido!</span>
                 </li>
             </ul>
         </div>
