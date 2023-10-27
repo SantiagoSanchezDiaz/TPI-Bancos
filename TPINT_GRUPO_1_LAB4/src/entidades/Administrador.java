@@ -36,7 +36,11 @@ public class Administrador {
 		return Contrasenia;
 	}
 	
+<<<<<<< HEAD
 	public void setContrasenia(String contrasenia) {
+=======
+	public void setcontrasenia(String contrasenia) {
+>>>>>>> refs/heads/kilian
 		Contrasenia = contrasenia;
 	}
 	

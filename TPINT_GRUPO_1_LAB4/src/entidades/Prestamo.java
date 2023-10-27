@@ -115,7 +115,11 @@ public class Prestamo {
 		CantidadCuotasPagadas = cantidadCuotasPagadas;
 	}
 
+<<<<<<< HEAD
 	public boolean isEstado() {
+=======
+	public boolean getEstado() {
+>>>>>>> refs/heads/kilian
 		return Estado;
 	}
 

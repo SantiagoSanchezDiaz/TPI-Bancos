@@ -77,7 +77,11 @@ public class Movimiento {
 	public void setTipoMovimiento(String tipoMovimiento) {
 		TipoMovimiento = tipoMovimiento;
 	}
+<<<<<<< HEAD
 	public boolean isEstado() {
+=======
+	public boolean getEstado() {
+>>>>>>> refs/heads/kilian
 		return Estado;
 	}
 	public void setEstado(boolean estado) {

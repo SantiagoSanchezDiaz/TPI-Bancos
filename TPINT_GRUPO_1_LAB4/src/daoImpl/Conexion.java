@@ -5,10 +5,16 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
+<<<<<<< HEAD
 	
 	public static Conexion instancia;
 	private Connection connection;
 
+=======
+	public static Conexion instancia;
+	private Connection connection;
+	// Hola, no lo pidan
+>>>>>>> refs/heads/kilian
 	private Conexion()
 	{
 		try
