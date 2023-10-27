@@ -20,7 +20,6 @@ public class Prestamo {
 	public Prestamo(String numeroPrestamo, String numeroCuenta, String dNI, Date fecha, Float importePedido,
 			Float importeAPagar, Date plazoDePago, Float montoMensual, int cantidadCuotas, int cantidadCuotasPagadas,
 			boolean estado) {
-		super();
 		NumeroPrestamo = numeroPrestamo;
 		NumeroCuenta = numeroCuenta;
 		DNI = dNI;
@@ -123,8 +122,4 @@ public class Prestamo {
 	public void setEstado(boolean estado) {
 		Estado = estado;
 	}
-	
-	
-	
-	
 }

@@ -23,7 +23,6 @@ public class Cliente{
 	public Cliente(String dNI, String cuit, String nombre, String apellido, String sexo, String nacionalidad,
 			Date fechaNacimiento, String direccion, String localidad, String provincia, String correo, String telefono,
 			String usuario, String contraseña, boolean estado) {
-		super();
 		DNI = dNI;
 		Cuit = cuit;
 		Nombre = nombre;

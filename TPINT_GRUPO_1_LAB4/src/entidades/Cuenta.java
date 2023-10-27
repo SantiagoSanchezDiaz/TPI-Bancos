@@ -14,7 +14,6 @@ public class Cuenta {
 	///CONSTRUCTOR
 	
 	public Cuenta(String numeroCuenta, String dNI, Date fecha, String cVU, String alias, Float saldo, boolean estado) {
-		super();
 		NumeroCuenta = numeroCuenta;
 		DNI = dNI;
 		Fecha = fecha;
@@ -81,8 +80,4 @@ public class Cuenta {
 	public void setEstado(boolean estado) {
 		Estado = estado;
 	}
-	
-	
-	
-	
 }

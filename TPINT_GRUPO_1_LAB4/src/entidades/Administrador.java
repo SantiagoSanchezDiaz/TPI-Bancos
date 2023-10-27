@@ -9,7 +9,6 @@ public class Administrador {
 	/// CONSTRUCTOR
 	
 	public Administrador(String codigo, String usuario, String contraseña, boolean estado) {
-		super();
 		Codigo = codigo;
 		Usuario = usuario;
 		Contraseña = contraseña;
@@ -24,24 +23,28 @@ public class Administrador {
 	public void setCodigo(String codigo) {
 		Codigo = codigo;
 	}
+	
 	public String getUsuario() {
 		return Usuario;
 	}
+	
 	public void setUsuario(String usuario) {
 		Usuario = usuario;
 	}
+	
 	public String getContraseña() {
 		return Contraseña;
 	}
+	
 	public void setContraseña(String contraseña) {
 		Contraseña = contraseña;
 	}
-	public boolean isEstado() {
+	
+	public boolean getEstado() {
 		return Estado;
 	}
+	
 	public void setEstado(boolean estado) {
 		Estado = estado;
 	}
-	
-	
 }

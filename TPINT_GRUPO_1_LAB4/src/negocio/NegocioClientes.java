@@ -1,5 +1,5 @@
 package negocio;
 
-public class NegocioClientes {
+public interface NegocioClientes {
 
 }

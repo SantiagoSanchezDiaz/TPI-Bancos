@@ -17,7 +17,6 @@ public class Movimiento {
 	
 	public Movimiento(String numeroMovimiento, String numeroCuenta, String dNI, String cVU, Date fecha, String detalle,
 			Float importe, String tipoMovimiento, boolean estado) {
-		super();
 		NumeroMovimiento = numeroMovimiento;
 		NumeroCuenta = numeroCuenta;
 		DNI = dNI;
